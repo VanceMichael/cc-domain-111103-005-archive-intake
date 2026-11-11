@@ -1,6 +1,12 @@
 [project]
 name = "archive-intake"
-version = "0.1.0"
-description = "来源资料采集与读取"
+version = "0.2.0"
+description = "供应商统计资料包的安全验签、流式解封与原子接收"
 requires-python = ">=3.12"
 dependencies = []
+
+[project.scripts]
+intake = "app.cli:main"
+
+[tool.unittest]
+# 测试通过 tests 包发现；运行示例见 README（使用 python3 -I 隔离模式）。

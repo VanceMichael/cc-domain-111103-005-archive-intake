@@ -1,0 +1,15 @@
+{
+  "at": "2026-11-11T20:34:31+00:00",
+  "attempt_id": "20261111T203431-fbe5515bccc0",
+  "files": [],
+  "issuer": "synthetic-lab",
+  "key_id": "e7441f90d09db3e8",
+  "manifest_fingerprint": "966f2ad7263b9ff89c0b243f1a8b81588a88f192867ee92d24b31cc86278564a",
+  "package_id": "stats-monthly",
+  "reasons": [
+    "DUPLICATE_PATH: 归一化路径 manifest.json 在中央目录出现 2 次 (member=manifest.json)",
+    "DUPLICATE_RESERVED: manifest.json 出现多次 (member=manifest.json)"
+  ],
+  "source_archive": "/workspace/fixtures/intake/malicious/duplicate-manifest.zip",
+  "status": "quarantined"
+}

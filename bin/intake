@@ -1,0 +1,22 @@
+#!/usr/bin/env python3
+"""隔离模式启动器：显式注入项目根后转交 app.cli。
+
+用法（从任意目录均可）::
+
+    python3 -I /workspace/bin/intake receive --archive <zip> ...
+
+``-I`` 会忽略 PYTHONPATH 且不把 cwd 加入模块搜索路径，因此在不可信
+归档目录内执行也不会加载其中的同名模块。
+"""
+
+import os
+import sys
+
+_PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+if _PROJECT_ROOT not in sys.path:
+    sys.path.insert(0, _PROJECT_ROOT)
+
+from app.cli import main  # noqa: E402
+
+if __name__ == "__main__":
+    raise SystemExit(main())

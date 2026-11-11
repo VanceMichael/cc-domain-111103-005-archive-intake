@@ -1,0 +1,14 @@
+{
+  "at": "2026-11-11T20:34:32+00:00",
+  "attempt_id": "20261111T203432-7964fb6b07b1",
+  "files": [],
+  "issuer": "synthetic-lab",
+  "key_id": "e7441f90d09db3e8",
+  "manifest_fingerprint": "966f2ad7263b9ff89c0b243f1a8b81588a88f192867ee92d24b31cc86278564a",
+  "package_id": "stats-monthly",
+  "reasons": [
+    "UNDECLARED_MEMBER: 归档成员未列入清单: observations/secret.txt"
+  ],
+  "source_archive": "/workspace/fixtures/intake/malicious/undeclared-member.zip",
+  "status": "quarantined"
+}

@@ -1,6 +1,9 @@
 .env
 *.key
+*.key.pem
 *.pem
+*.token
+credentials*
 node_modules/
 .venv/
 venv/
@@ -11,10 +14,9 @@ __pycache__/
 *.py[cod]
 .DS_Store
 
+# 本地接收运行时产物（版本、隔离区、暂存区、锁）
 runtime/
-*.token
-credentials*
 
-runtime/
-*.token
-credentials*
+# 样例构建器的私钥输出若误放项目内，一律忽略（公钥 *.pub 仍保留）
+*.priv
+*private*

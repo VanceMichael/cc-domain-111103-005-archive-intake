@@ -1,0 +1,50 @@
+{
+  "at": "2026-11-11T20:34:31+00:00",
+  "attempt_id": "20261111T203431-95cbb2542863",
+  "files": [
+    {
+      "actual_sha256": "2899c25e47d5c08ba0188356bf8ce33ee880f3f64c30efad5e74157bc534fe97",
+      "actual_size": 33,
+      "expected_sha256": "2899c25e47d5c08ba0188356bf8ce33ee880f3f64c30efad5e74157bc534fe97",
+      "expected_size": 33,
+      "member_index": 2,
+      "normalized": "observations/data.json",
+      "ok": true,
+      "path": "observations/data.json",
+      "reason": null
+    },
+    {
+      "actual_sha256": "a9cbe7c336ef603ccd23bd4bf29dd9b81f47d452c7538342668139ba4adae010",
+      "actual_size": 20,
+      "expected_sha256": "a9cbe7c336ef603ccd23bd4bf29dd9b81f47d452c7538342668139ba4adae010",
+      "expected_size": 20,
+      "member_index": 3,
+      "normalized": "observations/extra.json",
+      "ok": true,
+      "path": "observations/extra.json",
+      "reason": null
+    },
+    {
+      "actual_sha256": "e35ffa2989fc89acab7f6a6211f8334d3a17ecc089dfc1b64b18ba44b9eec73f",
+      "actual_size": 22,
+      "expected_sha256": "e35ffa2989fc89acab7f6a6211f8334d3a17ecc089dfc1b64b18ba44b9eec73f",
+      "expected_size": 22,
+      "member_index": 4,
+      "normalized": "observations/series.csv",
+      "ok": true,
+      "path": "observations/series.csv",
+      "reason": null
+    }
+  ],
+  "issuer": "synthetic-lab",
+  "key_id": "e7441f90d09db3e8",
+  "manifest_fingerprint": "c0bfdde4869118ac7cc0b8c9f7e1fe20a6c971fdb2ad5758d5042d34dbedffcd",
+  "member_count": 5,
+  "package_id": "stats-monthly",
+  "sequence_version": 2,
+  "source_archive": "/workspace/fixtures/intake/signed/stats-v2.zip",
+  "status": "accepted",
+  "total_compressed": 633,
+  "total_uncompressed": 809,
+  "zip64_used": false
+}
