@@ -1,0 +1,10 @@
+{
+  "issuer": "synthetic-lab",
+  "files": [
+    {
+      "path": "../outside.txt",
+      "size": 1,
+      "sha256": "0"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "issuer": "synthetic-lab",
+  "files": [
+    {
+      "path": "observations/data.json",
+      "size": 35,
+      "sha256": "5c541fb6c0d41a8d639529d932a64516cfca8d89aad0eade9a2df15e7dde22a0"
+    }
+  ]
+}
